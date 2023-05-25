@@ -1,3 +1,6 @@
+* {
+  z-index: 9999;
+}
 .react-js-cron {
   display: flex;
   align-items: flex-start;
