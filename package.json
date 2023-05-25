@@ -38,7 +38,6 @@
   ],
   "packageManager": "yarn@3.3.0",
   "scripts": {
-    "prepare": "npm run build",
     "build": "run-s build:del build:rollup",
     "build:rollup": "rollup -c",
     "build:del": "del dist",
